@@ -1,0 +1,92 @@
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #111;
+	background-color: #fdfdfd;
+	-webkit-text-size-adjust: 100%;
+}
+#TopLayer{
+	font-weight: bold;
+	width: 100%;
+	height: 75px;
+	border: 1px solid black;
+	position: fixed;
+    right: 0px;
+    top: 0px;
+    
+    z-index: 2;
+    background-color: #000080;
+    color: white;
+}
+.MenuL{
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+}
+a:hover{
+	color: #5F9EA0;
+}
+#Title{
+	width: 48%;
+	padding-top: 15px;
+	/*border: 1px solid black;
+	*/float: left;
+	text-align: center;
+	font-size: 30px;
+}
+#Menu{
+	width: 50%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/*border: 1px solid black;
+	*/float: right;
+	text-align: center;
+}
+#MainContent{
+	margin-top: 75px;
+	z-index: 1;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: justify;
+}
+#Description{
+	width: 58%;
+	float: left;
+}
+#Photo{
+	width: 40%;
+	float: right;
+	text-align: center;
+}
+.part{
+	width: 100%;
+	float: left;
+}
+.profil-pic{
+	/*width: 150px;*/
+	height: 200px;
+}
+.icon{
+	width: 40px;
+	margin-right: 10px;
+}
+.paper{
+	display: flex;
+}
+.thumbnail{
+	width: 200px;
+}
+.imagePap{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.title{
+	font-weight: bold;
+}
+.icon{
+	width: 20px;
+}
